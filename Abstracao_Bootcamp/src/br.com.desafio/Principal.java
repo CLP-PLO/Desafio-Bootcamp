@@ -1,7 +1,9 @@
+package br.com.desafio;
 import java.time.LocalDate;
 
-import br.com.diodesafiodominio.Curso;
-import br.com.diodesafiodominio.Mentoria;
+
+import br.com.desafio.Mentoria;
+import br.com.desafio.Curso;
 
 
 
@@ -24,6 +26,9 @@ public class Principal {
         mentoria.setData(LocalDate.now());
 
 
+        System.out.println(curso1);
+        System.out.println(curso2);
+        System.out.println(mentoria);
 
 
 

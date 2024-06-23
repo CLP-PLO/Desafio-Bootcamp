@@ -1,3 +1,4 @@
+package br.com.desafio;
 public class Curso {
 
     private String titulo;
